@@ -74,9 +74,6 @@ public class Employee {
 	      preparedStmt.setString (3, designation);
 	      preparedStmt.setDouble(4, salary);
 	      preparedStmt.executeUpdate();
-
-	      // execute the preparedstatement
-	      preparedStmt.execute();
 	      
 	      con.close();
 		}catch(Exception e) {System.out.println("====");}
